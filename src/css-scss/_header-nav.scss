@@ -1,0 +1,224 @@
+// HEADER & NAV
+
+nav {
+    background-color: $primary;
+    height: 100.1vh;
+    .close-btn {
+        position: absolute;
+        top: 1.6625rem;
+        right: 1.6625rem;
+        cursor: pointer;
+        z-index: 500;
+        svg {
+            fill: white;
+        }
+    }
+    .navbar {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: initial;
+        align-content: initial;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+        .navbar__item {
+            margin: 5% 0 5% 0;
+            padding: 0 0 0 2rem;
+            .navbar__item-link {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 300;
+                font-family: "Jost", sans-serif;
+                text-decoration: none;
+                list-style: none;
+                letter-spacing: 1.2px;
+                text-align: left;
+            }
+        }
+        .navbar__item--logo {
+            .navbar-logo {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: -85%;
+                margin: auto;
+                width: 3.5rem;
+            }
+        }
+    }
+    .navbar::-webkit-scrollbar {display: none;}
+}
+
+.nav-initial {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.navbar-in {
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+    left: 0px;
+    top: 0;
+    right: 0;
+    animation-name: navbar-in;
+    animation-duration: 0.57s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes navbar-in {
+    0% {
+        opacity: 1;
+        visibility: initial;
+        left: -400px;
+        top: 0;
+        margin: auto;
+        top: 0;
+        right: 5000px;
+    }
+    10% {
+        opacity: 1;
+        visibility: initial;
+        left: -400px;
+        top: 0px;
+        margin: auto;
+        top: 0;
+        right: 1000px;
+    }
+    70% {
+        opacity: 1;
+        visibility: initial;
+        left: 0px;
+        top: 0px;
+        margin: auto;
+        top: 0;
+        right: 0;
+    }
+    100% {
+        opacity: 1;
+        visibility: initial;
+        left: 0px;
+        top: 0px;
+        margin: auto;
+        top: 0;
+        right: 0;
+    }
+}
+
+.navbar-out {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    animation-name: navbar-out;
+    animation-duration: 1.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes navbar-out {
+    100% {
+        opacity: 1;
+        visibility: initial;
+        left: -400px;
+        top: 0;
+        margin: auto;
+        right: 5000px;
+    }
+    70% {
+        opacity: 1;
+        visibility: initial;
+        left: -400px;
+        top: 0;
+        margin: auto;
+        right: 3000px;
+    }
+    50% {
+        opacity: 1;
+        visibility: initial;
+        left: -400px;
+        top: 0;
+        margin: auto;
+        // right: 1000px;
+    }
+    30% {
+        opacity: 1;
+        visibility: initial;
+        left: -300px;
+        top: 0;
+        margin: auto;
+        // right: 500px;
+    }
+    0% {
+        opacity: 1;
+        visibility: initial;
+        left: -10px;
+        top: 0;
+        margin: auto;
+        right: 10px;
+    }
+}
+
+.navbar__item-link--active {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+header {
+    background-color: $primary;
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    #open-btn {
+        cursor: pointer;
+        position: absolute;
+        left: 1rem;
+        // top: 24%;
+        svg {
+            fill: white;
+        }
+    }
+    .header-logo {
+        display: flex;
+        justify-content: end;
+        .header-logo__img {
+            margin: 2% 1rem 0 0;
+            width: 3.125rem;
+        }
+    }
+}
+
+// narrow screens
+@media (max-height: 670px) {
+    .header-logo__img {
+        width: 2.1rem !important;
+    }
+}
+
+// Mobile landscape and Tablet
+@media screen and (min-device-width: 500px) and (orientation: landscape) {
+    header{
+        height: 12.5vh !important;
+    }
+    .navbar__item {
+        margin: 1% 0 1% 0 !important;
+    }
+}
