@@ -139,8 +139,8 @@ nav .navbar::-webkit-scrollbar {
   right: 0;
   -webkit-animation-name: navbar-in;
           animation-name: navbar-in;
-  -webkit-animation-duration: 0.57s;
-          animation-duration: 0.57s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
@@ -151,7 +151,7 @@ nav .navbar::-webkit-scrollbar {
   0% {
     opacity: 1;
     visibility: initial;
-    left: -400px;
+    left: 0px;
     top: 0;
     margin: auto;
     top: 0;
@@ -160,7 +160,7 @@ nav .navbar::-webkit-scrollbar {
   10% {
     opacity: 1;
     visibility: initial;
-    left: -400px;
+    left: 0px;
     top: 0px;
     margin: auto;
     top: 0;
@@ -190,7 +190,7 @@ nav .navbar::-webkit-scrollbar {
   0% {
     opacity: 1;
     visibility: initial;
-    left: -400px;
+    left: 0px;
     top: 0;
     margin: auto;
     top: 0;
@@ -199,7 +199,7 @@ nav .navbar::-webkit-scrollbar {
   10% {
     opacity: 1;
     visibility: initial;
-    left: -400px;
+    left: 0px;
     top: 0px;
     margin: auto;
     top: 0;
@@ -331,6 +331,29 @@ nav .navbar::-webkit-scrollbar {
   text-decoration: underline !important;
 }
 
+nav li,
+nav li:focus,
+nav li:active,
+nav li:link,
+nav li:hover,
+nav li:visited,
+nav a,
+nav a:focus,
+nav a:active,
+nav a:link,
+nav a:hover,
+nav a:visited {
+  outline: 0 !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
 header {
   background-color: #98b4b0;
   width: 100%;
@@ -360,6 +383,8 @@ header #open-btn {
   cursor: pointer;
   position: absolute;
   left: 1rem;
+  padding: 20px 20px 20px 0;
+  z-index: 5;
 }
 
 header #open-btn svg {
@@ -388,7 +413,7 @@ header .header-logo .header-logo__img {
 
 @media screen and (min-device-width: 500px) and (orientation: landscape) {
   header {
-    height: 12.5vh !important;
+    height: 14vh !important;
   }
   .navbar__item {
     margin: 1% 0 1% 0 !important;
