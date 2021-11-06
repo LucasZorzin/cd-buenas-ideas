@@ -20,7 +20,7 @@ nav {
         justify-content: center;
         align-items: initial;
         align-content: initial;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin: 0;
         padding: 0;
         overflow-y: scroll;
@@ -36,6 +36,10 @@ nav {
                 list-style: none;
                 letter-spacing: 1.2px;
                 text-align: left;
+                word-break: keep-all;
+                word-wrap: normal!important;
+                -ms-word-break: keep-all;
+                -ms-word-wrap: normal;
             }
         }
         .navbar__item--logo {
@@ -242,9 +246,9 @@ header {
 }
 
 // Mobile landscape and Tablet
-@media screen and (min-device-width: 500px) and (orientation: landscape) {
+@media screen and (min-device-width: 100px) and (orientation: landscape) {
     header {
-        height: 14vh !important;
+        height: 17vh !important;
     }
     .navbar__item {
         margin: 1% 0 1% 0 !important;
