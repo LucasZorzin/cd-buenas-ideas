@@ -1,0 +1,177 @@
+.main-presentation {
+    width: 343px;
+    height: 393px;
+    flex-grow: 0;
+    margin: 112px 16px 48px 16px;
+    padding: 40px 40px 0 1px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    .main-presentation__name {
+        margin: 0 0 16px 87px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: right;
+        color: $text1;    
+        .main-presentation__text1 {
+            font-size: 16px;
+            font-weight: medium;
+            color: #000;
+        }
+    }
+    .main-presentation__title {
+        margin: 16px 0 16px 152px;
+        font-family: Lato;
+        font-size: 14px;
+        text-align: right;
+        color: #000;
+    }
+    .main-presentation__text2 {
+        margin: 16px 0 13px 37px;
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: 300;
+        text-align: right;
+        color: #000;
+    }
+    .main-presentation__text3 {
+        margin: 16px 0 114px 129px;
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: right;
+        color: #000;
+    }
+}
+
+.main-title {
+    margin: 48px 16px 16px 17px;
+    font-family: Jost;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #000;
+}
+
+.main-proyects {
+    width: 343px;
+    height: 523px;
+    flex-grow: 0;
+    margin: 0 0 16px 17px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    .main-proyects__title {
+        margin: 0 3px 24px 8px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #555050;
+    }
+    .main-proyects__img1 {
+        width: 113px;
+        height: 113px;
+        flex-grow: 0;
+        margin: 20px 69px 30px 0;
+    }
+    .main-proyects__enterprise {
+        margin: 16px 71px 6px 8px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        color: #555050;
+    }
+    .main-proyects__who {
+        margin: 6px 15px 24px 8px;
+        font-family: Lato;
+        font-size: 16px;
+        text-align: left;
+        color: #555050;
+    }
+    .main-proyects__text1 {
+        width: 82px;
+        height: 19px;
+        flex-grow: 0;
+        margin: 24px 92px 8px 8px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: left;
+        color: $text1;
+    }
+}
+
+
+.main-products {
+    width: 343px;
+    height: 478px;
+    margin: 0 0 16px 17px;
+    flex-grow: 0;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    .main-products__title {
+        width: 279px;
+        height: 19px;
+        flex-grow: 0;
+        margin: 0 0 24px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: $text1;
+    }
+    .main-products__text1 {
+        margin: 24px 0 2px;
+        font-family: Lato;
+        font-size: 16px;
+        text-align: center;
+        color: $text1;
+    }
+    .main-products__text2 {
+        margin: 2px 0 24px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: $text3;
+    }
+}
+
+.main-contact {
+    width: 343px;
+    height: 260px;
+    margin: 50px 16px 40px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    .main-contact__text1 {
+        margin: 0 0 10px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        color: #555050;
+    }
+    .main-contact__social {
+        margin: 27px 50px 18px 48px;
+        font-family: Lato;
+        font-size: 16px;
+        text-align: left;
+        color: $text1;
+    }
+}
+
+.main-bar {
+    width: 375px;
+    height: 16px;
+    margin: 40px 0 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #b9dbd7;
+}
