@@ -7,4 +7,14 @@
 @import "../css-scss/_typography.scss";
 @import "../css-scss/_custom.scss";
 @import "../css-scss/_header-nav.scss";
-@import "../css-scss/main";
+@import "../css-scss/_main.scss";
+@import "../css-scss/_slick-carousel.scss";
+
+.carousel-proyects{
+    margin: 5%;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
