@@ -1,12 +1,12 @@
 .main-presentation {
-    width: 343px;
+    width: 100vw;
     height: 393px;
     flex-grow: 0;
-    margin: 112px 16px 48px 16px;
+    margin: 55px 0px 48px 0px;
     padding: 40px 40px 0 1px;
     border-radius: 8px;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: $primary;
     .main-presentation__name {
         margin: 0 0 16px 87px;
         font-family: Lato;

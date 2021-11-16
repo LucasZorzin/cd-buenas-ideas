@@ -19,10 +19,11 @@ body {
 ul,
 a {
     text-decoration: none;
+    padding: 0 0.5rem!important;
 }
 
 ::selection {
-    background: $primary !important;
+    background: $text2 !important;
     color: #fff;
 }
 

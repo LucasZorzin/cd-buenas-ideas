@@ -22,158 +22,30 @@
 
 <body>
     <header>
-        <div id="open-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-        </div>
-        <div class="header-logo">
-            <a href="index.html"><img class="header-logo__img" src="./src/assets/img/logo.png" alt="CD Buenas Ideas"></a>
-        </div>
-        <div id="navbar" class="nav-initial">
-            <nav>
-                <div id="close-btn" class="close-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
-                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
-                    </svg>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container container-menu">
+                <a class="navbar-brand" href="index.html">
+                    <img class="menu-icon" src="./src/assets/img/icon.png" alt="CD Buenas Ideas - Logo">
+                    <h1 class="menu-text">CD Buenas Ideas</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li id="sobre-mi-nav" class="nav-item nav-item--top"><a class="nav-link" href="#sobre-mi">SOBRE MI</a></li>
+                        <li id="planes-nav" class="nav-item"><a class="nav-link" href="#planes">PLANES</a></li>
+                        <li id="clientes-nav" class="nav-item nav-item--bottom"><a class="nav-link" href="#clientes">CLIENTES</a></li>
+                    </ul>
                 </div>
-                <ul class="navbar">
-                    <li class="navbar__item"><a id="sobre-mi-nav" class="navbar__item-link" href="#">SOBRE MI</a> </li>
-                    <li class="navbar__item"><a id="proyectos-nav" class="navbar__item-link" href="#proyectos">PROYECTOS</a> </li>
-                    <li class="navbar__item"><a id="planes-nav" class="navbar__item-link" href="#planes">PLANES</a></li>
-                    <li class="navbar__item"><a id="contactame-nav" class="navbar__item-link" href="#contacto">CONTACTAME</a></li>
-                    <li class="navbar__item navbar__item--logo"><a href="index.html"><img class="navbar-logo" src="./src/assets/img/logo.png" alt="CD Buenas Ideas"></a></li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div id="sobre-mi" class="main-presentation">
-            <span class="main-presentation__name">
-                <span class="main-presentation__text1">“¡Hola, soy</span>
-                Cecilia Dudesek<span class="main-presentation__text1">!</span>
-            </span>
-            <p class="main-presentation__title">Licenciada en publicidad</p>
-            <p class="main-presentation__text2">¿No sabes como explotar las ventajas de las redes sociales?</p>
-            <p class="main-presentation__text3">Dejame ayudarte con la creación y manejo de tus redes sociales profesionales. Impulsemos tu negocio juntos.”</p>
-        </div>
-        
-        <p id="proyectos" class="main-title">PROYECTOS</p>
-        <div class="carousel-proyects">
-            <div class="main-proyects">
-                <p class="main-proyects__title">DISEÑO Y CONTENIDO</p>
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img1">
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img2">
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img3">
-                <p class="main-proyects__enterprise">Virginia García</p>
-                <p class="main-proyects__who">Psicomotricidad y atención temprana del desarrollo infantil</p>
-                <p class="main-proyects__text1">Resultados:</p>
-                <ul>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                    <li>
-                        20% más likes e interacciones
-                    </li>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                </ul>
-            </div>
 
-            <div class="main-proyects">
-                <p class="main-proyects__title">DISEÑO Y CONTENIDO</p>
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img1">
-                <p class="main-proyects__enterprise">Virginia García</p>
-                <p class="main-proyects__who">Psicomotricidad y atención temprana del desarrollo infantil</p>
-                <p class="main-proyects__text1">Resultados:</p>
-                <ul>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                    <li>
-                        20% más likes e interacciones
-                    </li>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                </ul>
-            </div>
 
-            <div class="main-proyects">
-                <p class="main-proyects__title">DISEÑO Y CONTENIDO</p>
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img1">
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img2">
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img3">
-                <p class="main-proyects__enterprise">Virginia García</p>
-                <p class="main-proyects__who">Psicomotricidad y atención temprana del desarrollo infantil</p>
-                <p class="main-proyects__text1">Resultados:</p>
-                <ul>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                    <li>
-                        20% más likes e interacciones
-                    </li>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                </ul>
-            </div>
+<!-- contenido -->
 
-            <div class="main-proyects">
-                <p class="main-proyects__title">DISEÑO Y CONTENIDO</p>
-                <img src="./src/assets/img/Mesa de trabajo 3FeedSeptiembre.png" alt="test img" class="main-proyects__img1">
-                <p class="main-proyects__enterprise">Virginia García</p>
-                <p class="main-proyects__who">Psicomotricidad y atención temprana del desarrollo infantil</p>
-                <p class="main-proyects__text1">Resultados:</p>
-                <ul>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                    <li>
-                        20% más likes e interacciones
-                    </li>
-                    <li>
-                        Incremento en 50% del número de seguidores
-                    </li>
-                </ul>
-            </div>
-        </div>
 
-        <p id="planes" class="main-title">PLANES</p>
-
-        <div class="main-products">
-            <p class="main-products__title">DISEÑO</p>
-            <p class="main-products__text1">ESTRATEGIA</p>
-            <p class="main-products__text2">Semanal, quincenal o mensual</p>
-            <p class="main-products__text1">INSIDE + DISEÑO</p>
-            <p class="main-products__text2">9 feeds y 3 stories</p>
-            <p class="main-products__text1">CONTENIDO</p>
-            <p class="main-products__text2">-</p>
-            <p class="main-products__text1">MODERACIÓN</p>
-            <p class="main-products__text2">-</p>
-            <p class="main-products__text1">REVISION</p>
-            <p class="main-products__text2">-</p>
-            <p class="main-products__text1">REDES SOCIALES</p>
-        </div>
-
-        <p id="contacto" class="main-title">CONTACTAME</p>
-
-        <div class="main-contact">
-            <p class="main-contact__text1">Atrévete a dar el siguiente paso para tu negocio. Puedes encontrarme en:</p>
-            <a href="https://www.instagram.com/cdbuenasideas/" class="main-contact__social"><img src="" alt="">cdbuenasideas</a>
-            <br><br>
-            <a href="https://www.linkedin.com/in/cecilia-dudesek/" class="main-contact__social"><img src="" alt="">li.com/in/cecilia-dudesek/</a>
-            <br><br>
-            <a href="" class="main-contact__social"><img src="" alt="">11 68677717</a>
-            <br><br>
-            <a href="" class="main-contact__social"><img src="" alt="">ceciliadudesek@gmail.com</a>
-        </div>
-        
-        <div class="main-bar"></div>
     </main>
 
 
@@ -181,8 +53,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bs JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- Carousel Slick -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Js -->
     <script src="./js/main.js"></script>
 </body>
