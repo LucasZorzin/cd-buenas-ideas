@@ -27,3 +27,24 @@ $('#clientes-nav').click(() => {
     $(link)[1].classList.remove("nav-link--active");
     $(link)[3].classList.remove("nav-link--active");
 });
+
+// Clientes
+$('#figure1').hover( 
+    () => {$('figure')[0].classList.toggle("figure-hover");},
+    () => {$('figure')[0].classList.toggle("figure-hover");}
+);
+
+$('#figure2').hover( 
+    () => {$('figure')[1].classList.toggle("figure-hover");},
+    () => {$('figure')[1].classList.toggle("figure-hover");}
+);
+
+$('#figure3').hover( 
+    () => {$('figure')[2].classList.toggle("figure-hover");},
+    () => {$('figure')[2].classList.toggle("figure-hover");}
+);
+
+$('#figure4').hover( 
+    () => {$('figure')[3].classList.toggle("figure-hover");},
+    () => {$('figure')[3].classList.toggle("figure-hover");}
+);
