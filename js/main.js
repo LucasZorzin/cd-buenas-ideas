@@ -7,7 +7,6 @@ $('#sobre-mi-nav').click(() => {
 	setTimeout(()=>{$(link)[0].classList.remove("nav-link--active");},400);
     $(link)[1].classList.remove("nav-link--active");
     $(link)[2].classList.remove("nav-link--active");
-    $(link)[3].classList.remove("nav-link--active");
 });
 
 $('#planes-nav').click(() => {
@@ -16,7 +15,6 @@ $('#planes-nav').click(() => {
 	setTimeout(()=>{$(link)[1].classList.remove("nav-link--active");},400);
     $(link)[0].classList.remove("nav-link--active");
     $(link)[2].classList.remove("nav-link--active");
-    $(link)[3].classList.remove("nav-link--active");
 });
 
 $('#clientes-nav').click(() => {
@@ -25,7 +23,6 @@ $('#clientes-nav').click(() => {
 	setTimeout(()=>{$(link)[2].classList.remove("nav-link--active");},400);
     $(link)[0].classList.remove("nav-link--active");
     $(link)[1].classList.remove("nav-link--active");
-    $(link)[3].classList.remove("nav-link--active");
 });
 
 // Clientes
