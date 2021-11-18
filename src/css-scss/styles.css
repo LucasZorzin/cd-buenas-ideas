@@ -141,7 +141,7 @@ nav {
 }
 
 .nav-item--bottom {
-  padding-bottom: 32px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 290px) {
@@ -682,6 +682,9 @@ nav {
 }
 
 @media (min-device-width: 250px) and (min-device-height: 100px) and (orientation: landscape) {
+  .clientes {
+    margin-top: 0 !important;
+  }
   .main-presentation {
     height: initial !important;
   }

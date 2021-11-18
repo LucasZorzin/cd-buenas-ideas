@@ -325,6 +325,9 @@
 
 // Smartphone: orientation landscape
 @media (min-device-width: 250px) and (min-device-height: 100px) and (orientation: landscape) {
+    .clientes{
+        margin-top: 0!important;
+    }
     .main-presentation{
         height: initial!important;
     }
