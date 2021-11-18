@@ -15,3 +15,10 @@
 .loader__img {
     width: 100%;
 }
+
+// Smartphone: orientation landscape
+@media (min-device-width: 250px) and (min-device-height: 100px) and (orientation: landscape) {
+    .loader__img {
+        width: 30%!important;
+    }
+}
