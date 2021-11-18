@@ -1,7 +1,11 @@
 // HEADER & NAV
 nav {
     background-color: $navbar;
-    padding-top: 16px!important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.navbar{
+    padding-top: 0.9581rem;
+    padding-bottom: 0.9587rem;
 }
 .container-menu {
     padding: 0 16px !important;

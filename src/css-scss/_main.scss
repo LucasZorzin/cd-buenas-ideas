@@ -1,12 +1,13 @@
 // Sections
 .main-presentation {
-    padding-top: 172.5px;
-    height: 664px;
+    height: calc(100vh - 64px);
+    margin-top: 64px;
     background-color: $primary;
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: center;
+    justify-content: center;
     .main-presentation__textbox {
         width: 311px;
         flex-grow: 0;
@@ -49,6 +50,10 @@
         gap: 24px;
         padding: 0;
     }
+}
+
+.img-menu{
+    width: 93px;
 }
 
 .main-services {
@@ -193,7 +198,8 @@
 }
 // clientes
 .clientes {
-    padding-top: 58px; //(es lo que ocupa el header, eliminar despues!)
+    margin-top: 114px;
+    padding-top: 50.8px;
     background-color: $primary;
     height: max-content;
     .clientes__img {
@@ -205,7 +211,8 @@
         }
     }
     h4 {
-        margin-top: 20.5px;
+        width: 80px;
+        margin: 20.5px auto 0 auto;
         font-size: 1.5rem;
         letter-spacing: 1.2px;
         color: $black;
@@ -214,18 +221,12 @@
         font-family: "Jost", Arial;
         text-align: center;
         line-height: normal;
-    }
-    h4::after {
-        content: "";
-        width: 80px;
-        height: 3px;
-        background-color: $text2;
-        position: absolute;
-        top: 190px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        border-radius: 2px;
+        border-bottom: solid 3px $text2;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4px;
     }
     p {
         font-size: 1.125rem;
@@ -316,5 +317,29 @@
         justify-content: center;
         align-items: center;
         align-content: center;
+    }
+}
+.footer-img{
+    width: 21px;
+}
+
+// Smartphone: orientation landscape
+@media (min-device-width: 250px) and (min-device-height: 100px) and (orientation: landscape) {
+    .main-presentation{
+        height: initial!important;
+    }
+    .main-presentation__textbox{
+        padding-top: 80px!important;
+        color: red;
+    }
+    .main-presentation__icons{
+        padding-bottom: 50px!important;
+    }
+}
+
+// Narrow Screens
+@media (max-width: 300px) {
+    .main-presentation__textbox {
+        padding: 40px!important;
     }
 }

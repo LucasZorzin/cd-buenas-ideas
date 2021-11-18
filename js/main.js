@@ -1,3 +1,9 @@
+// Loader
+window.onload = () => {
+    const contenedor = $("#loader")[0];
+    contenedor.style.visibility = 'hidden';
+}
+
 //Navbar
 let link=$('.nav-link');
 
