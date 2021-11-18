@@ -1,5 +1,196 @@
 // Sections
+.main-presentation {
+    padding-top: 172.5px;
+    height: 664px;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    .main-presentation__textbox {
+        width: 311px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+        padding: 0;
+        .main-presentation__text {
+            font-weight: 600;
+            padding: 0 28.5px 0 28.5px;
+        }
+        p {
+            letter-spacing: normal;
+            text-align: center;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            color: $black;
+            margin-bottom: 0px;
+            letter-spacing: normal;
+            line-height: normal;
+            .main-presentation__name {
+                font-weight: 500;
+                font-size: 20px;
+                color: $text1;
+            }
+        }
+    }
+    .main-presentation__icons {
+        height: 24px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        padding: 0;
+    }
+}
 
+.main-services {
+    height: 2059px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    margin: 3px 0 0;
+    padding: 40px 32px;
+    background-color: $navbar;
+    .main-services__intro {
+        height: 354px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 18px;
+        padding: 0;
+        .main-services__title {
+            width: 96px;
+            height: 42px;
+            flex-grow: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 4px;
+            padding: 0;
+            h2 {
+                margin-bottom: 0;
+                flex-grow: 0;
+                font-family: Jost;
+                font-size: 24px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.2px;
+                text-align: left;
+                color: $black;
+            }
+            .main-services__bar {
+                width: 80px;
+                height: 3px;
+                flex-grow: 0;
+                border-radius: 2px;
+                background-color: $text2;
+            }
+        }
+        .main-services__text {
+            margin-bottom: 0;
+            flex-grow: 0;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: $black;
+        }
+    }
+    .main-services__cards {
+        height: 1609px;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 48px;
+        padding: 24px 0;
+        .main-card {
+            align-self: stretch;
+            flex-grow: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+            padding: 0;
+            border-radius: 8px;
+            .main-cards__title {
+                margin-bottom: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: $text1;
+            }
+            .main-cards__functions {
+                align-self: stretch;
+                flex-grow: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: stretch;
+                gap: 16px;
+                padding: 0 0 8px;
+                p {
+                    margin-bottom: 0;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $black;
+                }
+            }
+            .main-cards__text2 {
+                margin-bottom: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: $black;
+            }
+        }
+    }
+}
 // clientes
 .clientes {
     padding-top: 58px; //(es lo que ocupa el header, eliminar despues!)
