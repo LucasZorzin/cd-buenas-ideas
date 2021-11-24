@@ -3,7 +3,7 @@ nav {
     background-color: $navbar;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
-.navbar{
+.navbar {
     padding-top: 0.9581rem;
     padding-bottom: 0.9587rem;
 }
@@ -20,13 +20,17 @@ nav {
     }
 }
 .menu-icon {
-    width: 32px;
+    display: none;
+}
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0;
 }
 .menu-text {
     display: inline;
     color: $text1;
     font-size: 20px;
-    padding: 10px 0 0 8px;
+    padding: 0;
 }
 
 .nav-item {
@@ -34,8 +38,8 @@ nav {
     justify-content: center;
     align-items: center;
     padding-top: 24px;
-    .nav-link {
-        color: $text2 !important;
+    .nav-links {
+        color: $text2;
         font-family: "Lato", sans-serif;
         font-size: 1.125rem;
         font-weight: 400;
@@ -45,10 +49,10 @@ nav {
         font-weight: 700 !important;
     }
 }
-.nav-item--top{
+.nav-item--top {
     padding-top: 32px;
 }
-.nav-item--bottom{
+.nav-item--bottom {
     padding-bottom: 15px;
 }
 
@@ -61,16 +65,37 @@ nav {
 
 // PC
 @media (min-width: 992px) {
-    .nav-link {
-        transition: all 0.3s ease;
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 80px;
+        // height: 112px;
     }
-    .nav-link:hover{
-        color: $text1!important;
+    .nav-links {
+        font-size: 1.25rem;
+        margin: 0 0 0 42px !important;
+        color: $text-navbar !important;
+        border-bottom: 2px solid transparent;
+        transition: all 0.5s;
     }
-    .nav-item--top{
-        padding-top: 24px!important;
+    .nav-links:hover {
+        // font-weight: 800 !important;
+        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+        border-bottom: 2px solid $black;
+        color: rgb(0, 0, 0)!important;
+
     }
-    .nav-item--bottom{
-        padding-bottom: 0px!important;
+    .nav-item--top,
+    .nav-item--bottom,
+    .nav-item {
+        padding: 0 !important;
+    }
+    .menu-icon {
+        display: flex;
+        width: 50px;
+        // width: 64px;
+    }
+    .menu-text {
+        display: none;
     }
 }

@@ -5,7 +5,7 @@ window.onload = () => {
 }
 
 //Navbar
-let link=$('.nav-link');
+let link=$('.nav-links');
 
 $('#sobre-mi-nav').click(() => {
     $(link)[0].classList.toggle("nav-link--active");
