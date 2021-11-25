@@ -647,8 +647,8 @@ nav {
 }
 
 .clientes .clientes__img-logos a figure img {
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
   padding: 1rem;
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
@@ -750,6 +750,17 @@ nav {
       align-content: center;
 }
 
+.footer-bar a {
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.footer-bar a:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 .footer-img {
   width: 21px;
 }
@@ -782,13 +793,24 @@ nav {
   }
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+  .figure {
+    height: 30vh;
+  }
+  .clientes .clientes__img-logos a figure img {
+    width: auto;
+    height: 80%;
+  }
+}
+
 @media (min-width: 992px) {
   .main-presentation {
     gap: 0;
+    height: 100vh !important;
   }
   .main-presentation__textbox {
     width: auto !important;
-    padding: 168px 104px 40px 104px !important;
+    padding: 0px 104px 40px 104px !important;
   }
   .main-presentation__icons {
     margin-bottom: 72px;
@@ -849,6 +871,16 @@ nav {
     color: #0e201d;
   }
   /* A REVISAR p/ arreglar sección Clientes en DESKTOP  */
+  .figure {
+    height: auto;
+  }
+  .clientes p {
+    padding: 18px 104px 32px 104px;
+  }
+  .clientes .clientes__img-logos a figure img {
+    width: 65%;
+    height: 65%;
+  }
   .clientes__container {
     display: -webkit-box;
     display: -ms-flexbox;

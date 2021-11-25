@@ -51,3 +51,13 @@ $('#figure4').hover(
     () => {$('figure')[3].classList.toggle("figure-hover");},
     () => {$('figure')[3].classList.toggle("figure-hover");}
 );
+
+$('#figure5').hover( 
+    () => {$('figure')[4].classList.toggle("figure-hover");},
+    () => {$('figure')[4].classList.toggle("figure-hover");}
+);
+
+$('#figure6').hover( 
+    () => {$('figure')[5].classList.toggle("figure-hover");},
+    () => {$('figure')[5].classList.toggle("figure-hover");}
+);
