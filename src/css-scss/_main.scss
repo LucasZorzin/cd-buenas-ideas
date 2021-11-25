@@ -335,6 +335,9 @@
     flex-direction: row;
     padding: 0 41.5px;
     flex-wrap: nowrap;
+    .col {
+        display: flex;
+    }
     .col-3 {
         display: flex;
         justify-content: center;

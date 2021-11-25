@@ -729,6 +729,12 @@ nav {
       flex-wrap: nowrap;
 }
 
+.footer-bar .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer-bar .col-3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,5 +837,27 @@ nav {
     text-align: center;
     color: #0e201d;
   }
+}
+
+.float {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
