@@ -1,3 +1,4 @@
+@charset "UTF-8";
 textarea:focus, input[type="text"]:focus, textarea[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus, .form-control:focus, .form-select:focus, .btn-close:focus {
   border-color: #daefec;
   -webkit-box-shadow: none;
@@ -729,6 +730,12 @@ nav {
       flex-wrap: nowrap;
 }
 
+.footer-bar .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer-bar .col-3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -758,9 +765,9 @@ nav {
     padding-top: 80px !important;
     color: red;
   }
-  .main-presentation__icons {
-    padding-bottom: 50px !important;
-  }
+  /*     .main-presentation__icons {
+        padding-bottom: 50px !important;
+    } */
 }
 
 @media (max-width: 300px) {
@@ -776,6 +783,16 @@ nav {
 }
 
 @media (min-width: 992px) {
+  .main-presentation {
+    gap: 0;
+  }
+  .main-presentation__textbox {
+    width: auto !important;
+    padding: 168px 104px 40px 104px !important;
+  }
+  .main-presentation__icons {
+    margin-bottom: 72px;
+  }
   .main-services {
     height: initial !important;
   }
@@ -831,5 +848,50 @@ nav {
     text-align: center;
     color: #0e201d;
   }
+  /* A REVISAR p/ arreglar sección Clientes en DESKTOP  */
+  .clientes__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .clientes__img-logos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  figure {
+    width: auto !important;
+  }
+  .col {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.float {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 2.4px 9.6px 0 rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
