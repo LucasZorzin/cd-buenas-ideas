@@ -333,7 +333,7 @@
 // Footer
 .footer-bar {
     height: 72px;
-    background-color: $text1;
+    background-color: $text2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -509,14 +509,6 @@
     }
 }
 
-//PC > 1400width{
-@media (min-width: 1400px) {
-    .container {
-        max-width: initial;
-        margin: 0 15vw !important;
-    }
-}
-
 // PC > 1490px width
 @media (min-width: 1490px) {
     .main-services__cards {
@@ -536,6 +528,10 @@
 
 // PC > 2100px width
 @media (min-width: 2100px) {
+    .container {
+        max-width: initial;
+        margin: 0 15vw !important;
+    }
     .main-services__cards {
         padding: 0 265px !important;
     }
