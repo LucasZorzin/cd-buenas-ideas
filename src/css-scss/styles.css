@@ -251,6 +251,10 @@ nav {
   padding: 0;
 }
 
+.main-presentation .main-presentation__textbox .hola {
+  font-size: 40px;
+}
+
 .main-presentation .main-presentation__textbox img {
   width: 101px;
 }
@@ -264,7 +268,7 @@ nav {
   letter-spacing: normal;
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
   color: #0e201d;
@@ -275,7 +279,7 @@ nav {
 
 .main-presentation .main-presentation__textbox p .main-presentation__name {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 32px;
   color: #0e201d;
 }
 
