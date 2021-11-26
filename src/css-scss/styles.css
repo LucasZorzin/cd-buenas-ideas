@@ -172,7 +172,7 @@ nav {
   .navbar {
     padding-top: 0;
     padding-bottom: 0;
-    height: 80px;
+    height: 112px;
   }
   .nav-links {
     font-size: 1.25rem;
@@ -196,7 +196,7 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 50px;
+    width: 64px;
   }
   .menu-text {
     display: none;
