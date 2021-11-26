@@ -1,4 +1,10 @@
 // Sections
+.mobile-img{
+    display: initial;
+}
+.pc-img{
+    display: none;
+}
 .main-presentation {
     height: calc(100vh - 64px);
     margin-top: 64px;
@@ -363,10 +369,10 @@
     }
     .main-presentation {
         height: initial !important;
+        padding-bottom: 54px;
     }
     .main-presentation__textbox {
         padding-top: 80px !important;
-        color: red;
     }
 /*     .main-presentation__icons {
         padding-bottom: 50px !important;
@@ -405,6 +411,14 @@
 
 // PC
 @media (min-width: 992px) {
+    .mobile-img{
+        display: none;
+    }
+    .pc-img{
+        display: initial;
+        padding-top: 56px;
+        width: 240px!important;
+    }
     .main-presentation {
         gap: 0;
         height: 100vh!important;
@@ -412,6 +426,9 @@
     .main-presentation__textbox {
         width: auto !important;
         padding: 0px 104px 40px 104px !important;
+        .hola{
+            font-weight: 600!important;
+        }
     }
     .main-presentation__icons {
         margin-bottom: 72px;
