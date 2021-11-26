@@ -705,7 +705,7 @@ nav {
           align-items: center;
 }
 
-.clientes__img-logos a figure img:hover {
+.clientes__img-logos a figure:hover > img {
   opacity: 1;
 }
 
