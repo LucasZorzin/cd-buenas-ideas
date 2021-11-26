@@ -1,8 +1,8 @@
 // Sections
-.mobile-img{
+.mobile-img {
     display: initial;
 }
-.pc-img{
+.pc-img {
     display: none;
 }
 .main-presentation {
@@ -374,7 +374,7 @@
     .main-presentation__textbox {
         padding-top: 80px !important;
     }
-/*     .main-presentation__icons {
+    /*     .main-presentation__icons {
         padding-bottom: 50px !important;
     } */
 }
@@ -399,35 +399,35 @@
 }
 
 // tablet
-@media (min-width: 576px) and (max-width: 991px){
-.figure{
-    height: 30vh;
-}
-.clientes .clientes__img-logos a figure img{
-    width: auto;
-    height: 80%;
-}
+@media (min-width: 576px) and (max-width: 991px) {
+    .figure {
+        height: 30vh;
+    }
+    .clientes .clientes__img-logos a figure img {
+        width: auto;
+        height: 80%;
+    }
 }
 
 // PC
 @media (min-width: 992px) {
-    .mobile-img{
+    .mobile-img {
         display: none;
     }
-    .pc-img{
+    .pc-img {
         display: initial;
         padding-top: 56px;
-        width: 240px!important;
+        width: 240px !important;
     }
     .main-presentation {
         gap: 0;
-        height: 100vh!important;
+        height: 100vh !important;
     }
     .main-presentation__textbox {
         width: auto !important;
         padding: 0px 104px 40px 104px !important;
-        .hola{
-            font-weight: 600!important;
+        .hola {
+            font-weight: 600 !important;
         }
     }
     .main-presentation__icons {
@@ -435,6 +435,7 @@
     }
     .main-services {
         height: initial !important;
+        padding: 64px !important;
     }
     .main-services__text {
         padding: 0 104px !important;
@@ -481,15 +482,15 @@
 
     /* A REVISAR p/ arreglar sección Clientes en DESKTOP  */
 
-    .figure{
+    .figure {
         height: auto;
     }
-    .clientes{
-        p{
+    .clientes {
+        p {
             padding: 18px 104px 32px 104px;
         }
     }
-    .clientes .clientes__img-logos a figure img{
+    .clientes .clientes__img-logos a figure img {
         width: 65%;
         height: 65%;
     }
@@ -508,4 +509,47 @@
     }
 }
 
+//PC > 1400width{
+@media (min-width: 1400px) {
+    .container {
+        max-width: initial;
+        margin: 0 15vw !important;
+    }
+}
 
+// PC > 1490px width
+@media (min-width: 1490px) {
+    .main-services__cards {
+        padding: 0 160px !important;
+    }
+    .main-card {
+        padding: 0 31px !important;
+    }
+}
+
+// PC > 1660px width
+@media (min-width: 1660px) {
+    .main-card {
+        padding: 0 88px !important;
+    }
+}
+
+// PC > 2100px width
+@media (min-width: 2100px) {
+    .main-services__cards {
+        padding: 0 265px !important;
+    }
+    .main-card {
+        padding: 0 129px !important;
+    }
+}
+
+// PC > 2580px width
+@media (min-width: 2580px) {
+    .main-services__cards {
+        padding: 0 265px !important;
+    }
+    .main-card {
+        padding: 0 200px !important;
+    }
+}
