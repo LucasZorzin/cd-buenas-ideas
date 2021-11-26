@@ -161,7 +161,7 @@
             justify-content: flex-start;
             align-items: center;
             gap: 16px;
-            padding: 0;
+            padding: 0 14px;
             border-radius: 8px;
             .main-cards__title {
                 margin-bottom: 0;
@@ -277,9 +277,11 @@
                 // background-color: $white;
                 transition: background-color 500ms ease-out;
                 img {
-                    width: 50%;
-                    height: 50%;
+                    width: 40%;
+                    height: 40%;
                     padding: 1rem;
+                    z-index: 2;
+                    opacity: 0.5;
                     transition: all 500ms ease-out;
                     will-change: transform;
                 }
@@ -290,7 +292,7 @@
                     height: 100%;
                     background: $layer;
                     transition: all 500ms ease-out;
-                    opacity: 0.5;
+                    opacity: 1;
                     visibility: initial;
                     text-align: center;
                     display: grid;
@@ -304,7 +306,7 @@
                     height: 100%;
                     background: $primary;
                     transition: all 500ms ease-out;
-                    opacity: 0.6;
+                    opacity: 1;
                     visibility: initial;
                     text-align: center;
                     display: grid;
@@ -314,6 +316,10 @@
             }
         }
     }
+}
+
+.clientes__img-logos a figure img:hover{
+    opacity: 1;
 }
 
 .clientes__img-logos a figure:hover > .layer {
@@ -469,7 +475,7 @@
         margin-bottom: 0;
         align-self: stretch;
         flex-grow: 0;
-        font-family: Lato;
+        font-family: 'Lato';
         font-size: 14px;
         font-weight: 300;
         font-stretch: normal;
@@ -480,7 +486,9 @@
         color: $black;
     }
 
-    /* A REVISAR p/ arreglar sección Clientes en DESKTOP  */
+    .layer-no{
+        background: $dark-layer!important;
+    }
 
     .figure {
         height: auto;
@@ -491,8 +499,8 @@
         }
     }
     .clientes .clientes__img-logos a figure img {
-        width: 65%;
-        height: 65%;
+        width: 52%;
+        height: 52%;
     }
     .clientes__container {
         display: flex;

@@ -34,15 +34,19 @@ nav {
 }
 
 .nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 24px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     .nav-links {
         color: $text2;
         font-family: "Lato", sans-serif;
         font-size: 1.125rem;
         font-weight: 400;
+        padding: 20px;
     }
     .nav-link--active {
         color: $text1 !important;
@@ -73,6 +77,7 @@ nav {
     .nav-links {
         font-size: 1.25rem;
         margin: 0 0 0 42px !important;
+        padding: 0 0.5rem!important;
         color: $text-navbar !important;
         border-bottom: 2px solid transparent;
         transition: all 0.5s;
