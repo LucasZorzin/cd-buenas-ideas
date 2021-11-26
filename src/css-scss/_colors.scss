@@ -9,7 +9,12 @@ $text-navbar: #221f20;
 $carousel:#8ac6c1;
 $layer: #bfe7e0;
 $white: #fbfdfd;
+<<<<<<< HEAD
 $dark-layer:#a4ddd2;
+=======
+$layer1: #bfe7e0;
+$layer2: #a4ddd2;
+>>>>>>> f56042b (clients colors fixed)
 
 textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,  input[type="color"]:focus, .uneditable-input:focus, .form-control:focus, .form-select:focus, .btn-close:focus {  
     border-color: $primary;

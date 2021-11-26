@@ -691,7 +691,7 @@ nav {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #daefec;
+  background: #a4ddd2;
   -webkit-transition: all 500ms ease-out;
   transition: all 500ms ease-out;
   opacity: 1;
@@ -898,9 +898,12 @@ nav {
     text-align: center;
     color: #0e201d;
   }
+<<<<<<< HEAD
   .layer-no {
     background: #a4ddd2 !important;
   }
+=======
+>>>>>>> f56042b (clients colors fixed)
   .figure {
     height: auto;
   }
