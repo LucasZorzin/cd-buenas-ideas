@@ -436,22 +436,11 @@
         width: auto !important;
         max-width: 1024px !important;
         padding: 0px 104px 40px 104px !important;
-        p {
-            font-size: 24px !important;
-            .main-presentation__name {
-                font-size: 32px !important;
-            }
-        }
         .hola {
-            font-size: 40px !important;
             font-weight: 600 !important;
         }
     }
     .main-presentation__icons {
-        svg {
-            height: 32px !important;
-            width: 32px !important;
-        }
         margin-bottom: 72px;
     }
     .main-services {
@@ -534,6 +523,23 @@
 
 // PC > 1490px width
 @media (min-width: 1490px) {
+    .main-presentation__textbox {
+        p {
+            font-size: 24px !important;
+            .main-presentation__name {
+                font-size: 32px !important;
+            }
+        }
+        .hola {
+            font-size: 40px !important;
+        }
+    }
+    .main-presentation__icons {
+        svg {
+            height: 32px !important;
+            width: 32px !important;
+        }
+    }
     .main-services__cards {
         padding: 0 160px !important;
     }
