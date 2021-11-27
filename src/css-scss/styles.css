@@ -837,22 +837,11 @@ nav {
     max-width: 1024px !important;
     padding: 0px 104px 40px 104px !important;
   }
-  .main-presentation__textbox p {
-    font-size: 24px !important;
-  }
-  .main-presentation__textbox p .main-presentation__name {
-    font-size: 32px !important;
-  }
   .main-presentation__textbox .hola {
-    font-size: 40px !important;
     font-weight: 600 !important;
   }
   .main-presentation__icons {
     margin-bottom: 72px;
-  }
-  .main-presentation__icons svg {
-    height: 32px !important;
-    width: 32px !important;
   }
   .main-services {
     height: initial !important;
@@ -948,6 +937,19 @@ nav {
 }
 
 @media (min-width: 1490px) {
+  .main-presentation__textbox p {
+    font-size: 24px !important;
+  }
+  .main-presentation__textbox p .main-presentation__name {
+    font-size: 32px !important;
+  }
+  .main-presentation__textbox .hola {
+    font-size: 40px !important;
+  }
+  .main-presentation__icons svg {
+    height: 32px !important;
+    width: 32px !important;
+  }
   .main-services__cards {
     padding: 0 160px !important;
   }
