@@ -792,9 +792,12 @@ nav {
   .main-presentation__textbox {
     padding-top: 80px !important;
   }
-  /*     .main-presentation__icons {
-        padding-bottom: 50px !important;
-    } */
+  .main-services {
+    height: 1880px;
+  }
+  .loader__arrow {
+    width: 30px !important;
+  }
 }
 
 @media (max-width: 300px) {
@@ -939,7 +942,7 @@ nav {
   }
 }
 
-@media (max-height: 800px) {
+@media (min-width: 992px) and (max-height: 800px) {
   .main-presentation {
     height: 100vh !important;
   }
