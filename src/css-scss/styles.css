@@ -820,6 +820,9 @@ nav {
 }
 
 @media (min-width: 992px) {
+  .loader__arrow {
+    width: 30px !important;
+  }
   .mobile-img {
     display: none;
   }
@@ -830,7 +833,7 @@ nav {
   }
   .main-presentation {
     gap: 0;
-    height: 100vh !important;
+    height: calc(100vh - 54px) !important;
   }
   .main-presentation__textbox {
     width: auto !important;
@@ -889,7 +892,7 @@ nav {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
             flex-grow: 0;
-    font-family: 'Lato';
+    font-family: "Lato";
     font-size: 14px;
     font-weight: 300;
     font-stretch: normal;
@@ -933,6 +936,18 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-height: 800px) {
+  .main-presentation {
+    height: 100vh !important;
+  }
+  .navbar {
+    height: 75px;
+  }
+  .menu-icon {
+    width: 53px;
   }
 }
 
