@@ -1095,7 +1095,7 @@ nav {
   }
   .pc-img {
     display: initial;
-    padding-top: 56px;
+    margin-top: 88px;
     width: 240px !important;
   }
   .main-presentation {
@@ -1216,6 +1216,21 @@ nav {
   }
   .menu-icon {
     width: 53px;
+  }
+  .img-menu {
+    width: 80px;
+  }
+  .main-cards__title {
+    font-size: 15px;
+  }
+  .main-cards__text1 {
+    font-size: 13px;
+  }
+  .main-cards__text-pc {
+    padding-top: 18px;
+  }
+  .main-cards__functions {
+    gap: 10px;
   }
 }
 
