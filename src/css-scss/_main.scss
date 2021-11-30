@@ -82,7 +82,7 @@
 }
 
 .main-services {
-    height: 2059px;
+    // height: 2059px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -146,71 +146,58 @@
             color: $black;
         }
     }
-    .main-services__cards {
-        height: initial;
+}
+
+.main-services__cards {
+    height: initial;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 48px;
+    padding: 24px 0;
+    .main-card {
         align-self: stretch;
         flex-grow: 0;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: stretch;
-        gap: 48px;
-        padding: 24px 0;
-        .main-card {
+        align-items: center;
+        gap: 16px;
+        padding: 0 42px;
+        border-radius: 8px;
+        .main-cards__title {
+            margin-bottom: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: $text1;
+        }
+        .main-cards__functions {
             align-self: stretch;
             flex-grow: 0;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: center;
+            align-items: stretch;
             gap: 16px;
-            padding: 0 14px;
-            border-radius: 8px;
-            .main-cards__title {
+            padding: 0 0 8px;
+            p {
                 margin-bottom: 0;
                 align-self: stretch;
                 flex-grow: 0;
                 font-family: Lato;
-                font-size: 18px;
-                font-weight: bold;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: normal;
-                text-align: center;
-                color: $text1;
-            }
-            .main-cards__functions {
-                align-self: stretch;
-                flex-grow: 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                align-items: stretch;
-                gap: 16px;
-                padding: 0 0 8px;
-                p {
-                    margin-bottom: 0;
-                    align-self: stretch;
-                    flex-grow: 0;
-                    font-family: Lato;
-                    font-size: 16px;
-                    font-weight: 500;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: normal;
-                    letter-spacing: normal;
-                    text-align: center;
-                    color: $black;
-                }
-            }
-            .main-cards__text2 {
-                margin-bottom: 0;
-                align-self: stretch;
-                flex-grow: 0;
-                font-family: Lato;
-                font-size: 14px;
-                font-weight: 300;
+                font-size: 16px;
+                font-weight: 500;
                 font-stretch: normal;
                 font-style: normal;
                 line-height: normal;
@@ -218,6 +205,20 @@
                 text-align: center;
                 color: $black;
             }
+        }
+        .main-cards__text2 {
+            margin-bottom: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: $black;
         }
     }
 }
@@ -227,8 +228,8 @@
 }
 
 // clientes
-.clientes {
-    margin-top: 114px;
+.clientes-div {
+    margin-top: 40px;
     padding-top: 50.8px;
     background-color: $primary;
     height: max-content;
@@ -467,12 +468,13 @@
         gap: 0 !important;
     }
     .main-card {
-        padding: 0 20px !important;
+        padding: 0 53px !important;
     }
     .main-cards__title {
         flex-wrap: nowrap;
         white-space: break-spaces;
         overflow-wrap: normal;
+        margin-bottom: 15px!important;
     }
     .main-cards__text2 {
         display: none;
@@ -562,14 +564,14 @@
         padding: 0 160px !important;
     }
     .main-card {
-        padding: 0 31px !important;
+        padding: 0 83px !important;
     }
 }
 
 // PC > 1660px width
 @media (min-width: 1660px) {
     .main-card {
-        padding: 0 88px !important;
+        padding: 0 120px !important;
     }
 }
 
@@ -583,7 +585,7 @@
         padding: 0 265px !important;
     }
     .main-card {
-        padding: 0 129px !important;
+        padding: 0 160px !important;
     }
 }
 

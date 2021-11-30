@@ -65,3 +65,22 @@ $('#figure6').hover(
     () => { $('figure')[5].classList.toggle("figure-hover"); },
     () => { $('figure')[5].classList.toggle("figure-hover"); }
 );
+
+//// Fullpage preferences
+if (window.matchMedia("(min-width: 992px)").matches) {
+const pageSections = new fullpage('#fullpage', {
+	autoScrolling: true,
+	fitToSection: false,
+	fitToSectionDelay: 300,
+	easing: 'easeInOutCubic',
+	scrollingSpeed: 700,
+	css3: true,
+	easingcss3: 'ease-out',
+	loopBottom: false,
+	navigation: false,
+	menu: '#menu',
+	anchors: ['sobre-mi', 'planes', 'planes-ver', 'clientes'],
+	navigationTooltips: ['Sobre Mí', 'Planes', 'Ver Planes', 'Clientes'],
+	showActiveTooltip: false,
+});
+}
