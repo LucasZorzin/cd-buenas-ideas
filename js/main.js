@@ -70,6 +70,7 @@ $('#figure6').hover(
 if (window.matchMedia("(min-width: 992px)").matches) {
 const pageSections = new fullpage('#fullpage', {
 	autoScrolling: true,
+    scrollBar: true,
 	fitToSection: false,
 	fitToSectionDelay: 300,
 	easing: 'easeInOutCubic',

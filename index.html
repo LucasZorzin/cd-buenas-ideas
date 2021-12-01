@@ -42,7 +42,14 @@
                     data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto navbar-mobile">
+                        <li id="sobre-mi-nav" class="nav-item nav-item--top"><a class="nav-links" href="#sobre-mi-">SOBRE
+                                MI</a></li>
+                        <li id="planes-nav" class="nav-item"><a class="nav-links" href="#planes-">PLANES</a></li>
+                        <li id="clientes-nav" class="nav-item nav-item--bottom"><a class="nav-links"
+                                href="#clientes-">CLIENTES</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto navbar-pc">
                         <li id="sobre-mi-nav" class="nav-item nav-item--top"><a class="nav-links" href="#sobre-mi">SOBRE
                                 MI</a></li>
                         <li id="planes-nav" class="nav-item"><a class="nav-links" href="#planes">PLANES</a></li>
@@ -71,7 +78,7 @@
 
     <main id="fullpage">
         <section class="section sobre-mi">
-            <div id="sobre-mi" class="main-presentation">
+            <div id="sobre-mi-" class="main-presentation">
                 <div class="main-presentation__textbox">
                     <img class="mobile-img" src="./src/assets/img/logo.svg" alt="CD Buenas Ideas - Logo">
                     <img class="pc-img" src="./src/assets/img/cd_bubbles_home.gif" alt="CD Buenas Ideas - Logo">
@@ -122,7 +129,7 @@
         </section>
 
         <section class="section planes">
-            <div class="main-services">
+            <div id="planes-" class="main-services">
                 <div class="main-services__intro">
                     <img class="img-menu" src="./src/assets/img/planes.png" alt="Cerebro">
                     <div class="main-services__title">
@@ -197,7 +204,7 @@
 
         <section class="section clientes">
             <!-- clientes -->
-            <div class="clientes-div">
+            <div id="clientes-" class="clientes-div">
                 <div class="clientes__img"><img src="./src/assets/img/clientes.png" alt="clientes"></div>
                 <h4>Clientes</h4>
                 <p>Acompaño a cada profesional para que pueda optimizar estratégica y visualmente en el mundo digital,

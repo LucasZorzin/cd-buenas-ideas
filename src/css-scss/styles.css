@@ -353,6 +353,16 @@ a {
   }
 }
 
+.navbar-pc {
+  display: none;
+}
+
+.navbar-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 nav {
   background-color: #fbfdfd;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -431,6 +441,14 @@ nav {
 }
 
 @media (min-width: 992px) {
+  .navbar-pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar-mobile {
+    display: none;
+  }
   .navbar {
     padding-top: 0;
     padding-bottom: 0;
