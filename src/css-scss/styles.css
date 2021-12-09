@@ -1197,6 +1197,11 @@ footer {
     text-align: center;
     color: #0e201d;
   }
+  .clientes__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .layer-no {
     background: #a4ddd2 !important;
   }
@@ -1312,6 +1317,12 @@ footer {
   }
 }
 
+@media (min-width: 2000px) {
+  .clientes-div .clientes__img-logos a figure {
+    width: 35vw !important;
+  }
+}
+
 @media (min-width: 2100px) {
   .container {
     max-width: initial;
@@ -1322,6 +1333,9 @@ footer {
   }
   .main-card {
     padding: 0 160px !important;
+  }
+  .clientes-div .clientes__img-logos a figure {
+    width: 35vw !important;
   }
 }
 

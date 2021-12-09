@@ -506,6 +506,10 @@ footer {
         color: $black;
     }
 
+    .clientes__container{
+        justify-content: center;
+    }
+
     .layer-no {
         background: $dark-layer !important;
     }
@@ -622,6 +626,13 @@ footer {
     }
 }
 
+// PC > 2000px width
+@media (min-width: 2000px) {
+    .clientes-div .clientes__img-logos a figure{
+        width: 35vw!important;
+    }
+}
+
 // PC > 2100px width
 @media (min-width: 2100px) {
     .container {
@@ -633,6 +644,9 @@ footer {
     }
     .main-card {
         padding: 0 160px !important;
+    }
+    .clientes-div .clientes__img-logos a figure{
+        width: 35vw!important;
     }
 }
 
