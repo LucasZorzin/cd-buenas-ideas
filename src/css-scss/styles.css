@@ -613,7 +613,8 @@ nav {
   width: 93px;
 }
 
-.planes, .planes-ver {
+.planes,
+.planes-ver {
   background-color: #fbfdfd;
 }
 
@@ -1067,6 +1068,10 @@ nav {
   width: 21px;
 }
 
+footer {
+  z-index: 5;
+}
+
 @media (min-device-width: 250px) and (min-device-height: 100px) and (orientation: landscape) {
   .clientes {
     margin-top: 0 !important;
@@ -1248,7 +1253,7 @@ nav {
     width: 53px;
   }
   .img-menu {
-    width: 80px;
+    width: 65px;
   }
   .main-cards__title {
     font-size: 15px;
@@ -1261,6 +1266,18 @@ nav {
   }
   .main-cards__functions {
     gap: 10px;
+  }
+  .main-cards__functions p {
+    font-size: 14px;
+  }
+  footer {
+    z-index: 5;
+  }
+  .clientes p {
+    padding: 20px 104px 20px 104px;
+  }
+  .clientes .clientes__img-logos a figure img {
+    width: 28%;
   }
 }
 
