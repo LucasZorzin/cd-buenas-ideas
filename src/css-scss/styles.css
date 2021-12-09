@@ -286,7 +286,7 @@ html,
 body {
   max-width: 100% !important;
   overflow-x: hidden !important;
-  background-color: #fbfdfd;
+  background-color: #daefec;
 }
 
 ul,
@@ -611,6 +611,10 @@ nav {
 
 .img-menu {
   width: 93px;
+}
+
+.planes, .planes-ver {
+  background-color: #fbfdfd;
 }
 
 .main-services {
@@ -1197,9 +1201,12 @@ nav {
   .clientes p {
     padding: 18px 104px 32px 104px;
   }
+  .clientes-div {
+    margin-top: 0px;
+  }
   .clientes .clientes__img-logos a figure img {
-    width: 52%;
-    height: 52%;
+    width: 32%;
+    height: 32%;
   }
   .clientes__container {
     display: -webkit-box;
@@ -1222,6 +1229,11 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
   }
 }
 
